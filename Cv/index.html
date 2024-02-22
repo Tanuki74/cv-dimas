@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="Putih.png">
+    <title>Web Portofolio - Cipeng</title>
+</head>
+<body>
+    <!--- Navbar -->
+    <nav class="navbar navbar-expand-lg" style="background-color: #4C93FF;">
+        <div class="container-fluid px-5">
+          <a class="navbar-brand" href="#"><img src="Putih.png" class="w-25"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup" style="color:black; justify-content: end;">
+            <div class="navbar-nav gap-5">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#">Skill</a>
+              <a class="nav-link" href="#">Portofolio</a>
+              <a class="nav-link" href="#">Contact</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    
+    <!--Hero-->
+    <div class="background">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col">
+            <div class="tentang">
+              <p class="text-justify">Hi, I'am ...</p>
+              <p class="name">Dimas Bayu Arkaan </p>
+              <!-- <p class="text fw-semibold fs-3"> Graphic Design</p> -->
+              <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <!-- <img src="..." class="d-block w-100" alt="..."> -->
+                    <p class="text fw-semibold fs-3"> Graphic Design</p>
+                  </div>
+                  <div class="carousel-item">
+                    <!-- <img src="..." class="d-block w-100" alt="..."> -->
+                    <p class="text fw-semibold fs-3"> UI/UX Designer</p>
+                  </div>
+                  <div class="carousel-item">
+                    <!-- <img src="..." class="d-block w-100" alt="..."> -->
+                    <p class="text fw-semibold fs-3"> Pengangguran</p>
+                  </div>
+                  <div class="carousel-item">
+                    <!-- <img src="..." class="d-block w-100" alt="..."> -->
+                    <p class="text fw-semibold fs-3"> Mencari Pasangan :v</p>
+                  </div>
+                </div>
+              </div>
+              <p class="text-justify" style="text-align: justify;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla explicabo totam reprehenderit quasi minus atque quis magni consectetur nemo sed, magnam blanditiis cumque, hic porro! Sint voluptates consequuntur vitae fugit!</p>
+              <div class="row">
+                <div class="col">
+                  <button type="button" class="btn btn-outline-primary fw-semibold" style="box-shadow: 2px 2px 5px #45497F;">Download CV</button>
+                </div>
+                <div class="col">
+                  <a href="#" class="text text-white text-decoration-none">See More ></a>
+                </div>
+              </div>
+            </div>  
+           </div>
+          <div class="col">
+            <div class="d-flex justify-content-center" style="margin-top: 20%;">
+              <img src="cipeng.png">
+            </div>
+            <div class="d-flex justify-content-center gap-3 mb-5">
+              <div class="facebook">
+                <a href="#" title="Facebook"><i class="fa-brands fa-facebook-f fa-lg"></i></a>
+              </div>
+              <div class="twitter">
+                <a href="#" title="Twitter"><i class="fa-brands fa-twitter fa-lg"></i></a>
+              </div>
+              <div class="instagram">
+                <a href="#" title="Instagram"><i class="fa-brands fa-instagram fa-lg"></i></a>
+              </div>
+            </div>
+            </div>
+          </div>
+      </div>
+    </div>
+    <!---->
+    <div class="container">
+      <div class="p-5">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, eaque assumenda. Optio possimus repellendus doloremque vitae fuga nam exercitationem quos ut error ad harum unde nisi, totam impedit eius consequatur?</p>
+      </div>
+    </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <script>
+    const myCarouselElement = document.querySelector('#carouselExampleSlidesOnly')
+
+    const carousel = new bootstrap.Carousel(myCarouselElement, {
+      interval: 1500,
+      touch: false
+    })
+
+  </script>
+</body>
+</html>

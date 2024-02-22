@@ -1,0 +1,83 @@
+body{
+    font-family: Poppins;
+}
+
+.background{
+    background-image: url("Background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100%; 
+    min-height: 100vh;
+    min-height: calc(100% - 36px);
+    min-height: calc(100vh - 36px);
+    display: flex;
+    align-items: center;
+}
+
+.tentang{
+    color: white;
+    margin: 20%;
+}
+
+.name{
+    font-weight: bold;
+    text-align: center;
+    font-size: 64px;
+    color: rgb(76, 147, 255);
+    text-shadow: rgb(21, 66, 135) 5px 2px 2px;
+    text-align: left;
+}
+
+.facebook{
+    background-color: #4C93FF; 
+    width: 40px;
+    height: 40px; 
+    color: white; 
+    border-radius: 50%;
+}
+
+.facebook a{
+    color: white;
+    text-decoration: none;
+    padding: 14px;
+}
+
+.facebook a i{
+    padding-top: 20px;
+}
+
+.twitter{
+    background-color: #4C93FF; 
+    width: 40px; 
+    height: 40px; 
+    color: white; 
+    border-radius: 50%;
+}
+
+.twitter a{
+    color: white;
+    text-decoration: none;
+    padding: 11px;
+}
+
+.twitter a i{
+    padding-top: 20px;
+}
+
+.instagram{
+    background-color: #4C93FF; 
+    width: 40px; 
+    height: 40px; 
+    color: white; 
+    border-radius: 50%;
+}
+
+.instagram a{
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+}
+
+.instagram a i{
+    padding-top: 20px;
+}
