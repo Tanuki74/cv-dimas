@@ -1,12 +1,12 @@
-body{
-    font-family: Poppins;
+body {
+    font-family: "Poppins", sans-serif;
 }
 
-.background{
+.background {
     background-image: url("Background.png");
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 100%; 
+    min-height: 100%;
     min-height: 100vh;
     min-height: calc(100% - 36px);
     min-height: calc(100vh - 36px);
@@ -14,12 +14,12 @@ body{
     align-items: center;
 }
 
-.tentang{
+.tentang {
     color: white;
     margin: 20%;
 }
 
-.name{
+.name {
     font-weight: bold;
     text-align: center;
     font-size: 64px;
@@ -28,56 +28,56 @@ body{
     text-align: left;
 }
 
-.facebook{
-    background-color: #4C93FF; 
+.facebook {
+    background-color: #4C93FF;
     width: 40px;
-    height: 40px; 
+    height: 40px;
     color: white; 
     border-radius: 50%;
 }
 
-.facebook a{
+.facebook a {
     color: white;
     text-decoration: none;
     padding: 14px;
 }
 
-.facebook a i{
+.facebook a i {
     padding-top: 20px;
 }
 
-.twitter{
-    background-color: #4C93FF; 
-    width: 40px; 
-    height: 40px; 
-    color: white; 
+.twitter {
+    background-color: #4C93FF;
+    width: 40px;
+    height: 40px;
+    color: white;
     border-radius: 50%;
 }
 
-.twitter a{
+.twitter a {
     color: white;
     text-decoration: none;
     padding: 11px;
 }
 
-.twitter a i{
+.twitter a i {
     padding-top: 20px;
 }
 
-.instagram{
-    background-color: #4C93FF; 
-    width: 40px; 
-    height: 40px; 
-    color: white; 
+.instagram {
+    background-color: #4C93FF;
+    width: 40px;
+    height: 40px;
+    color: white;
     border-radius: 50%;
 }
 
-.instagram a{
+.instagram a {
     color: white;
     text-decoration: none;
     padding: 12px;
 }
 
-.instagram a i{
+.instagram a i {
     padding-top: 20px;
 }
