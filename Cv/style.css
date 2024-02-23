@@ -15,69 +15,34 @@ body {
 }
 
 .tentang {
-    color: white;
+    color: #FFF;
     margin: 20%;
 }
 
 .name {
     font-weight: bold;
-    text-align: center;
     font-size: 64px;
     color: rgb(76, 147, 255);
     text-shadow: rgb(21, 66, 135) 5px 2px 2px;
     text-align: left;
 }
 
-.facebook {
+.facebook, .twitter, .instagram {
     background-color: #4C93FF;
     width: 40px;
     height: 40px;
-    color: white; 
+    color: #FFF;
     border-radius: 50%;
 }
 
-.facebook a {
-    color: white;
+.facebook a, .twitter a, .instagram a  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
     text-decoration: none;
-    padding: 14px;
 }
 
-.facebook a i {
-    padding-top: 20px;
-}
-
-.twitter {
-    background-color: #4C93FF;
-    width: 40px;
-    height: 40px;
-    color: white;
-    border-radius: 50%;
-}
-
-.twitter a {
-    color: white;
-    text-decoration: none;
-    padding: 11px;
-}
-
-.twitter a i {
-    padding-top: 20px;
-}
-
-.instagram {
-    background-color: #4C93FF;
-    width: 40px;
-    height: 40px;
-    color: white;
-    border-radius: 50%;
-}
-
-.instagram a {
-    color: white;
-    text-decoration: none;
-    padding: 12px;
-}
-
-.instagram a i {
+.facebook a i, .twitter a i, .instagram a i {
     padding-top: 20px;
 }
